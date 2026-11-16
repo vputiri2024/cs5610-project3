@@ -15,6 +15,7 @@ Warden shows teams how healthy their CI pipelines are. Log CI runs with their te
 ## Design Document
 
 [Warden design document (Excalidraw)](https://app.excalidraw.com/s/78Atiz9VS0P/9SRIrRapM4T)
+Please also see DESIGN_DOCUMENT_Project3_Putiri_Maloof.pdf at the root level in the project folder
 
 ## Data Sources
 
