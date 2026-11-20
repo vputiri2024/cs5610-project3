@@ -71,3 +71,9 @@ Then open http://localhost:3000.
 ## License
 
 MIT, see [LICENSE](LICENSE).
+
+## Peer Review
+
+Really nice work! Sign-in is carefully secured, every query keeps users' data private, and the shared run validation keeps things tidy and friendly. I left a few small optional ideas in the code, mostly around the Issues search and form labels. Overall a well-built, thoughtful project, and a pleasure to review!
+
+- Aaryan Kathole
