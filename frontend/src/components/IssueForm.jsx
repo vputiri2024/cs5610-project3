@@ -117,6 +117,7 @@ export default function IssueForm() {
               </div>
               <div className="col">
                 <label className="form-label">Category</label>
+                {/* Aaryan: Small idea: a <select> with the same options as the Issues filter would keep Category and Status consistent. */}
                 <input
                   type="text"
                   name="category"
@@ -142,6 +143,7 @@ export default function IssueForm() {
             </div>
             <div className="row">
               <div className="mb-3">
+                {/* Aaryan: Just a thought: matching htmlFor to the textarea ids (errorSnippet, fixNotes) would link these labels to their fields. */}
                 <label
                   htmlFor="exampleFormControlTextarea1"
                   className="form-label"

@@ -18,6 +18,7 @@ router.get("/", async (req, res) => {
   const category = trimValue(req.query.category);
   const release = trimValue(req.query.release);
 
+  // Aaryan: Small idea: escaping the search text before $regex would let searches with ( or [ work too.
   if (search) query.title = { $regex: search, $options: "i" };
   if (status) query.status = status;
   if (category) query.category = category;
